@@ -1,0 +1,14 @@
+.grid-main {
+    display: grid;
+    grid-template-columns: repeat(3, 30%);
+    text-align: center;
+}
+
+body {
+    text-align: center;
+}
+
+.grid-general {
+    display: grid;
+    grid-template-rows: repeat(3, 30%);
+}
