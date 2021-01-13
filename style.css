@@ -1,3 +1,19 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #ffffff;
+    color: #5b5d61;
+    font-weight: normal;
+    margin: 0px;
+    padding: 0px;
+}
+
+#title {
+    color: #dd5555;
+    font-size: 35px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
 ul {
     list-style-type:none;
     padding-left: 0pt;
@@ -6,6 +22,7 @@ ul {
 button {     
     margin: 0 auto;     
     display: block; 
+    border-radius: 30px;
 }
 
 #photo {
@@ -48,6 +65,8 @@ li {
     display: grid;
     grid-template-rows: 0.5fr 0.5fr;
     border: 1px solid black;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
 }
 
 .grid-movie {
@@ -58,6 +77,7 @@ li {
 
 h1, h2, h3 {
     text-align: center;
+    
 }
 
 #test {
