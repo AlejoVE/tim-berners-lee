@@ -1,14 +1,40 @@
+ul {
+    list-style-type:none;
+    padding-left: 0pt;
+}
+
+img {
+    width: 100%;
+}
+
+#wrapper-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+}
+
+#wrapper-movies {
+    display: grid;
+    grid-template-rows: 10% 30% 30% 30%;
+}
+
+
+li {
+    display:inline;
+}
+
+
 .grid-main {
     display: grid;
-    grid-template-columns: repeat(3, 30%);
-    text-align: center;
+    grid-template-columns: repeat(3, 33%);
 }
 
-body {
-    text-align: center;
-}
-
-.grid-general {
+.grid-top {
     display: grid;
-    grid-template-rows: repeat(3, 30%);
+    grid-template-rows: 1fr 1fr;
 }
+
+.grid-movie {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
