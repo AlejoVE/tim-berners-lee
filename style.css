@@ -3,15 +3,29 @@ ul {
     padding-left: 0pt;
 }
 
-img {
-    width: 100%;
+button {     
+    margin: 0 auto;     
+    display: block; 
+}
+
+#photo {
+    width: 120px;
+    height: auto;
     border-radius: 50%;
+    display:block;
+    margin:auto;
+}
+
+.image-movie {
+    width: 70%;
+    height: auto;
 }
 
 #wrapper-social-media {
     display: grid;
     grid-template-columns: repeat(3, 33%);
     border: 1px solid red;
+    text-align: center;
 }
 
 #wrapper-movies {
@@ -27,7 +41,7 @@ li {
 
 .grid-main {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 20% 60% 20%;
 }
 
 .grid-top {
@@ -38,7 +52,12 @@ li {
 
 .grid-movie {
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 20% 80%;
+    padding-bottom: 50px;
+}
+
+h1, h2, h3 {
+    text-align: center;
 }
 
 #test {
