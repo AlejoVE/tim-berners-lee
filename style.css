@@ -5,11 +5,13 @@ ul {
 
 img {
     width: 100%;
+    border-radius: 50%;
 }
 
-#wrapper-grid {
+#wrapper-social-media {
     display: grid;
     grid-template-columns: repeat(3, 33%);
+    border: 1px solid red;
 }
 
 #wrapper-movies {
@@ -25,12 +27,13 @@ li {
 
 .grid-main {
     display: grid;
-    grid-template-columns: repeat(3, 33%);
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .grid-top {
     display: grid;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 0.5fr 0.5fr;
+    border: 1px solid black;
 }
 
 .grid-movie {
@@ -38,3 +41,6 @@ li {
     grid-template-columns: 50% 50%;
 }
 
+#test {
+    border: 5px solid red;
+}
