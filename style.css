@@ -1,10 +1,21 @@
 body {
     font-family: 'Open Sans', sans-serif;
-    background-color: #ffffff;
+    background-color: #ebebeb;
     color: #5b5d61;
     font-weight: normal;
     margin: 0px;
     padding: 0px;
+}
+
+h1, h3 {
+    text-align: center;
+    
+}
+
+h2 {
+    text-align: center;
+    color: #7c7f81;
+    font-weight: 510;
 }
 
 #title {
@@ -19,11 +30,13 @@ ul {
     padding-left: 0pt;
 }
 
-button {     
-    margin: 0 auto;     
-    display: block; 
-    border-radius: 30px;
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
 }
+
+
 
 #photo {
     width: 120px;
@@ -41,13 +54,16 @@ button {
 #wrapper-social-media {
     display: grid;
     grid-template-columns: repeat(3, 33%);
-    border: 1px solid red;
     text-align: center;
+    background-color: white;
+    padding: 20px;
 }
 
 #wrapper-movies {
     display: grid;
     grid-template-rows: 10% 30% 30% 30%;
+    margin-bottom: 20px;
+    background-color: white;
 }
 
 
@@ -64,22 +80,42 @@ li {
 .grid-top {
     display: grid;
     grid-template-rows: 0.5fr 0.5fr;
-    border: 1px solid black;
     font-family: 'Open Sans', sans-serif;
     font-weight: lighter;
+    padding: 20px;
+    background-color: white;
+    margin-top: 20px;
+}
+
+.grid-top button {
+    margin: 0 auto;     
+    display: block; 
+    border-radius: 30px;
+    background-color: #dd5555;
+    font-size: 15px;
+    padding: 10px;
 }
 
 .grid-movie {
     display: grid;
     grid-template-columns: 20% 80%;
     padding-bottom: 50px;
+    background-color: white;
+    padding: 20px;
 }
 
-h1, h2, h3 {
-    text-align: center;
-    
+.social-media {
+    font-size: 20px;
+    height: auto;
+    color: #b4b6b9;
+    font-weight: lighter;
 }
 
-#test {
-    border: 5px solid red;
+i {
+   color: #b4b6b9 
 }
+
+#background {
+    background-color: rgb(216, 210, 210);
+}
+
