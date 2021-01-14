@@ -22,4 +22,4 @@ You can check the site [here](https://alejove.github.io/tim-berners-lee/)
 
 
 
-![alt text](https://avatars3.githubusercontent.com/u/26875751?s=200&v=4 "Logo Title Text 1")
+![BeCode logo](https://avatars3.githubusercontent.com/u/26875751?s=200&v=4 "BeCode")
